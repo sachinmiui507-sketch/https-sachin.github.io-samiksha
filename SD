@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hEY Samiksha 🐧❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins;
+background:linear-gradient(120deg,#ffdde1,#ee9ca7);
+text-align:center;
+overflow-x:hidden;
+}
+
+/* floating hearts */
+.heart{
+position:fixed;
+bottom:-10px;
+color:red;
+font-size:20px;
+animation:float 6s linear infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+100%{transform:translateY(-100vh);}
+}
+
+.container{
+padding:20px;
+}
+
+h1{
+font-family:Dancing Script;
+font-size:45px;
+color:#fff;
+}
+
+.box{
+background:white;
+padding:25px;
+margin:20px;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+animation:fadeIn 2s;
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(40px);}
+to{opacity:1;}
+}
+
+img{
+width:260px;
+border-radius:20px;
+margin:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+button{
+background:#ff4d6d;
+border:none;
+padding:15px 25px;
+color:white;
+font-size:18px;
+border-radius:30px;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Sorry Samiksha 😔❤️</h1>
+
+<div class="container">
+
+<div class="box">
+<p>
+I know sometimes I overreact…<br>
+but trust me, hurting you was never my intention 💔<br><br>
+
+Our late night talks were not normal for me…<br>
+they were the best part of my day 🌙✨<br><br>
+
+Please accept this small sorry from your<br>
+pagal Sachin 🥺❤️
+</p>
+</div>
+
+<div class="box">
+<h2>Our Beautiful Memories 📸</h2>
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+
+</div>
+
+<div class="box">
+<h2>You + Me = My Favourite Place 🧸❤️</h2>
+<p>
+Can we go back to those cute talks…<br>
+those laughs… those moments?<br><br>
+
+Sending you unlimited virtual teddies 🧸🧸🧸<br>
+to make you smile once again 😘
+</p>
+</div>
+
+<div class="box">
+<button onclick="playMusic()">MERI ZINDAGI HAI TU - OST _ BILAL ABBAS _ HANIA AAMIR _ ASIM AZHAR _ SABRI SISTERS</button>
+</div>
+
+<audio id="music">
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<script>
+
+function playMusic(){
+document.getElementById("music").play();
+}
+
+setInterval(()=>{
+let heart=document.createElement("div");
+heart.className="heart";
+heart.innerHTML="💖";
+heart.style.left=Math.random()*100+"vw";
+document.body.appendChild(heart);
+
+setTimeout(()=>{heart.remove();},6000);
+},500);
+
+</script>
+
+</body>
+</html>
