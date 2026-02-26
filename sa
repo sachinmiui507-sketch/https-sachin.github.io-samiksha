@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Samiksha ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    background: linear-gradient(to right,#ffe6e6,#fff0f5);
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    max-width:700px;
+    background:white;
+    margin:40px auto;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+h1{
+    font-family:'Dancing Script',cursive;
+    font-size:42px;
+    color:#e60073;
+}
+
+h2{
+    color:#ff4d88;
+    margin-top:30px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+    color:#333;
+}
+
+.memory{
+    font-style:italic;
+    color:#cc0066;
+}
+
+.sign{
+    font-family:'Dancing Script',cursive;
+    font-size:28px;
+    color:#e60073;
+    margin-top:30px;
+}
+
+button{
+    background:#ff4d88;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    font-size:16px;
+    border-radius:30px;
+    cursor:pointer;
+    margin-top:25px;
+}
+
+button:hover{
+    background:#e60073;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Samiksha ji…</h1>
+
+<p>I don’t know if I still have the right to be heard,<br>
+but my heart couldn’t stay silent anymore.</p>
+
+<h2>I’m Sorry 💔</h2>
+
+<p>
+Sometimes I overdo things…<br>
+Sometimes I react more than I should…<br>
+Sometimes I fail to understand your silence.<br><br>
+
+And in all of that — I hurt you.<br>
+Not intentionally. Never carelessly.<br>
+But I did… and I am truly sorry.
+</p>
+
+<h2>Our Maths Quiz Moments 📖</h2>
+
+<p class="memory">
+“Sachin ye wala samjha do na…”<br><br>
+
+Those weren’t just questions for me.<br>
+Those were the moments where I started caring for you
+more than I ever planned to.
+</p>
+
+<h2>You Are Special ✨</h2>
+
+<p>
+You became my comfort,<br>
+my favourite notification,<br>
+my calm in chaos.
+</p>
+
+<p>
+I am not forcing you to come back.<br>
+I just want you to know that<br>
+I am changing… because you were right.
+</p>
+
+<h2>If One Day… 🌸</h2>
+
+<p>
+If your heart ever feels a little soft again,<br>
+you will find me as a better listener,<br>
+a calmer person,<br>
+someone who truly learned your value.
+</p>
+
+<p class="sign">— Sachin 🤍</p>
+
+<a href="https://www.youtube.com/watch?v=kffacxfA7G4" target="_blank">
+<button>🎶 Play This While Reading</button>
+</a>
+
+</div>
+
+</body>
+</html>
